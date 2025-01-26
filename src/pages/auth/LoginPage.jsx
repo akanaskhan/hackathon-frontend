@@ -40,7 +40,7 @@ const LoginPage = () => {
       window.location.href = "/";
 
     } catch (error) {
-      message.error(response.message);
+      message.error(error.message);
       console.log(error);
     }
     console.log("Login submitted:", formData);

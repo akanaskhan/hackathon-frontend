@@ -1,5 +1,5 @@
 const DEV_URL = "http://localhost:4003/";
-const PROD_URL = "https://hackathon-backend-olive.vercel.app/";
+const PROD_URL = "https://hackathon-backend-lime.vercel.app/";
 
 export const BASE_URL = PROD_URL;
 

@@ -34,7 +34,7 @@ const ForgotPasswordPage = () => {
       window.location.href = "/";
 
     } catch (error) {
-      message.error(response.message);
+      message.error(error.message);
       console.log(error);
     }
   };
